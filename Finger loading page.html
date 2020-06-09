@@ -1,0 +1,99 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Roboto&display=swap" rel="stylesheet">
+ 
+ <style>
+  p{font-family: 'Hind', sans-serif;
+font-family: 'Roboto', sans-serif;}
+h1{font-family: 'Hind', sans-serif;
+font-family: 'Roboto', sans-serif;}
+
+    /*position for button*/
+    .button-two {
+  position: absolute;
+  left: 41%;
+  bottom: 28%;
+  /* Design*/
+  border-radius: 15px;
+  background-color:#f7be03e7;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  font-family: 'Hind', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button-two:hover{
+  background-color:#ece1d9;
+  color: black;
+}
+.button-two:hover span {
+  padding-right: 25px;
+
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  </style>
+</head>
+<!--Main content-->
+
+<link href="doc.css" rel='stylesheet' type='text/css'>
+<div class="fullscreen" onLoad="window.open('fullscreen=yes, scrollbars=auto'); window.opener=null; window.close(); return false;">
+ <div class="loading">
+    <div class="finger finger-1">
+      <div class="finger-item">
+        <span></span><i></i>
+      </div>
+    </div>
+              <div class="finger finger-2">
+      <div class="finger-item">
+        <span></span><i></i>
+      </div>
+    </div>
+              <div class="finger finger-3">
+      <div class="finger-item">
+        <span></span><i></i>
+      </div>
+    </div>
+              <div class="finger finger-4">
+      <div class="finger-item">
+        <span></span><i></i>
+      </div>
+    </div>
+              <div class="last-finger">
+      <div class="last-finger-item"><i></i></div>
+    </div>
+          </div>
+  
+  <div class="credits-info">
+    <h1><b>WAITING FOR FOOD
+       <br> क्या आप भोजन के लिए इंतज़ार कर रहे हैं</b>
+    </h1>
+    <h1><b>Bored while waiting! Then play Games<br>
+       इंतजार करते-करते ऊब गए! फिर गेम्स खेलें</b>
+    </h1>
+    
+  </div>
+</div>
+<div class="sub-main">
+  <button class="button-two"><span>Play Now</span></button>
+</div>
